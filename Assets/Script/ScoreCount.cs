@@ -12,7 +12,7 @@ public class ScoreCount : MonoBehaviour
 
     private void Update()
     {
-        scoretext.text = player.position.z.ToString();
+        scoretext.text = player.position.z.ToString("0.0")+"m";
     }
 }
 
